@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Página de Pagamento</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; text-align:center; background:#f9f9f9;}
+    .titulo {background:red; color:#fff; padding:15px; font-size:24px; font-weight:bold;}
+    .sub {font-size:16px; margin:12px 0 20px;}
+    .direitos {font-size:14px; color:#555; margin:20px 0;}
+    .wrap {max-width:400px; margin:0 auto; padding:0 12px;}
+  </style>
+</head>
+<body>
+  <div class="titulo">ASSISTA O VÍDEO PARA APRENDER A FAZER O PAGAMENTO</div>
+  <div class="sub">Assista o vídeo completo</div>
+
+  <div class="wrap">
+    <!-- VTURB: cola aqui o teu embed -->
+    <vturb-smartplayer id="vid-68c07fb72ddf11c4c6635053"
+      style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer>
+    <script>
+      var s=document.createElement("script");
+      s.src="https://scripts.converteai.net/44f767a1-8e16-4ead-849b-d495221864f5/players/68c07fb72ddf11c4c6635053/v4/player.js";
+      s.async=true; document.head.appendChild(s);
+    </script>
+
+    <div class="direitos">© 2025 Todos os direitos reservados.</div>
+  </div>
+</body>
+</html>
